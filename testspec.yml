@@ -1,0 +1,23 @@
+version: 0.2
+# phases:
+#   install:
+#     commands:
+#     - npm ci
+#     - npm i wait-on
+#     - npm i pm2
+#   pre_build:
+#     commands:
+#     - npx pm2 start npm -- start
+#     - 'npx wait-on http://localhost:4200'
+#   build:
+#     commands:
+#     - npm test
+#   post_build:
+#     commands:
+#     - npx pm2 kill
+# reports:
+#   cucumber:
+#     base-directory: jasmine/cucumber-json
+#     files:
+#     - '**/*'
+#     file-format: CUCUMBERJSON
