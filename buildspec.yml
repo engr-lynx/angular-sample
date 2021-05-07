@@ -2,7 +2,7 @@ version: 0.2
 phases:
   install:
     commands:
-    - npm ci
+    - npm i
   build:
     commands:
     - npm run build --prod
@@ -10,3 +10,6 @@ artifacts:
   base-directory: dist
   files:
   - '**/*'
+cache:
+  paths:
+  - node_modules/**/*
