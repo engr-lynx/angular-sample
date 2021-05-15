@@ -21,3 +21,6 @@ version: 0.2
 #     files:
 #     - '**/*'
 #     file-format: CUCUMBERJSON
+# cache:
+#   paths:
+#   - node_modules/**/*
